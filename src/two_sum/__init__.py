@@ -1,0 +1,1 @@
+from two_sum.main import Solution
