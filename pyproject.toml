@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "LeetCodeSolution"
+version = "0.1.0"
+description = ""
+authors = ["nulladmin1 <shrey.deogade@protonmail.com>"]
+readme = "README.md"
+
+packages = [
+    { include = "two_sum", from = "src" }
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+two_sum = "two_sum.main:main"
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src"
+]
+testpaths = [
+    "tests"
+]
