@@ -1,6 +1,3 @@
-from typing import List, Tuple
-
-
 class Solution:
     def merge_alternately(self, word1: str, word2: str) -> str:
         merged_string = []
