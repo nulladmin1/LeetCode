@@ -38,6 +38,10 @@
         type = "app";
         program = "${leetcode}/bin/two_sum";
       };
+      merge_strings_alternatively = {
+        type = "app";
+        program = "${leetcode}/bin/merge_strings_alternatively";
+      };
     });
   };
 }

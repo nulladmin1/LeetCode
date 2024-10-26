@@ -6,7 +6,8 @@ authors = ["nulladmin1 <shrey.deogade@protonmail.com>"]
 readme = "README.md"
 
 packages = [
-    { include = "two_sum", from = "src" }
+    { include = "two_sum", from = "src" },
+    { include = "merge_strings_alternatively", from = "src" }
 ]
 
 
@@ -23,6 +24,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 two_sum = "two_sum.main:main"
+merge_strings_alternatively = "merge_strings_alternatively.main:main"
 
 [tool.pytest.ini_options]
 pythonpath = [

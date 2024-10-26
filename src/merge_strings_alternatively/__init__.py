@@ -1,0 +1,1 @@
+from merge_strings_alternatively.main import Solution
