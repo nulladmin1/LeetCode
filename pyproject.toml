@@ -16,6 +16,7 @@ python = "^3.12"
 
 
 [tool.poetry.group.dev.dependencies]
+python = "^3.12"
 pytest = "^8.3.3"
 
 [build-system]
