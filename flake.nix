@@ -42,6 +42,10 @@
         type = "app";
         program = "${leetcode}/bin/merge_strings_alternatively";
       };
+      range_sum_query_immutable = {
+        type = "app";
+        program = "${leetcode}/bin/range_sum_query_immutable";
+      };
     });
   };
 }
